@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), 
+    url(./img/City9.gif) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.menu {
+    text-align: center;
+}
+
+.nav-main {
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.nav-main a {
+    color: #ffffffdd;
+    padding: 12px 20px;
+    border-radius: 4px;
+    transition: .3s linear;
+}
+
+.nav-main a:hover {
+    background: #fffd;
+    color: #2f3640;
+    transform: scale(1.1);
+}
+
+.contenido-titulo {
+    text-align: center;
+}
+
+.titulo {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.titulo h1 {
+    background: #ffffffa4;
+    color: #ff0256ea;
+    border-radius: 4px;
+    padding: 12px 20px;
+}
+
+.contenido-video {
+    display: inline-block;
+}
+
+.video iframe {
+    text-align: center;
+}
